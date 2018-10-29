@@ -1,0 +1,12 @@
+context:
+  type: docker
+build:
+  docker:
+    # dockerfile: Dockerfile
+    url: docker.io
+    # port: 5000
+    username: feenix
+    credsId: feenix-at-dockerhub-dot-com
+    # name: {default: git repo name without leading 'docker-'} 
+    tag: 2.138.2
+    # buildArgs:
